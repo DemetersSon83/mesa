@@ -102,7 +102,7 @@ if [[ "${SKIP_INSTALL}" == "0" ]]; then
 
   python -m pip install -U pip
   python -m pip install -e .
-  python -m pip install -U matplotlib scipy pytest
+  python -m pip install -U matplotlib scipy pytest networkx
   echo
 else
   echo "== Skipping install (assumes env already has deps) =="
